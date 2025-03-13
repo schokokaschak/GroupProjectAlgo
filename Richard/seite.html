@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Финансовый анализ</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Finanzanalyse</h1>
+
+        <label for="country">Wählen Sie Ihr Land aus
+            :</label>
+        <select id="country">
+            <option value="Россия">RU</option>
+            <option value="США">US</option>
+            <option value="Германия">DE</option>
+            <option value="Украина">UK</option>
+        </select>
+
+        <h2>Einkommen</h2>
+        <label>Grundeinkommen: <input type="number" id="income" placeholder="Betrag eingeben"></label>
+
+        <h2>Kosten</h2>
+        <label>Gehäuse: <input type="number" id="housing" placeholder="Betrag eingeben"></label>
+        <label>Transport: <input type="number" id="transport" placeholder="Betrag eingeben"></label>
+        <label>Produkte: <input type="number" id="food" placeholder="Betrag eingeben"></label>
+        <label>Unterhaltung: <input type="number" id="entertainment" placeholder="Betrag eingeben"></label>
+        <label>Andere: <input type="number" id="other" placeholder="Betrag eingeben"></label>
+
+        <button onclick="calculate()">Berechnen</button>
+
+        <h2>Ergebnisse</h2>
+        <p id="result"></p>
+        <p id="advice"></p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
