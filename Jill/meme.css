@@ -1,11 +1,22 @@
 body{
     background-color: #1e1f1f;
+    color: white;
 }
 
-.top-text{
+.toptextbox{
     font-family: Impact;
+    left: 4px;
+    top: 4px;
+    width: 490px;
+    height: 174px;
+    position: relative;
 }
 
-.bottom-text{
+.bottomtextbox{
     font-family: Impact;
+    left: 4px;
+    top: 508px;
+    width: 490px;
+    height: 174px;
+    position:relative;
 }
