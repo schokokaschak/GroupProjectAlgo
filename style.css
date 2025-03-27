@@ -1,0 +1,70 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom right, #5e2a78, #d4b1e6);
+    
+      
+  }
+  
+  .container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  h1 {
+    margin-bottom: 40px;
+  }
+  
+  nav a.btn {
+    display: block;
+    height: 100px;
+    margin: 10px 0;
+    padding: 15px;
+    background: #ed4e76;
+    color: #000000;
+    text-decoration: none;
+    font-size: 50px;
+    
+    border-radius: 5px;
+    transition: background 0.3s ease;
+  }
+  
+  nav a.btn:hover {
+    background: #d85184;
+  }
+  
+
+  .sprite {
+    position: absolute;
+    width: 250px;
+    height: auto;
+  }
+  
+  .left1 {
+    left: 300px;
+    top: 50px;  
+  }
+  
+  .left2 {
+    left: 150px;
+    top: 500px;
+  }
+  
+  .right1 {
+    right: 300px;
+    top: 50px;
+  }
+  
+  .right2 {
+    right: 150px;
+    top: 500px;
+  }
