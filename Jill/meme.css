@@ -1,5 +1,5 @@
 body{
-    background-color: #1e1f1f;
+    background: linear-gradient();
     color: white;
 }
 
@@ -10,6 +10,7 @@ body{
     width: 490px;
     height: 174px;
     position: relative;
+    text-transform: uppercase;
 }
 
 .bottomtextbox{
@@ -19,4 +20,5 @@ body{
     width: 490px;
     height: 174px;
     position:relative;
+    text-transform: uppercase;
 }
