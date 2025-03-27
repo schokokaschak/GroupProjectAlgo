@@ -1,41 +1,41 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Финансовый анализ</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Финансовая консультация</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="container">
-        <h1>Finanzanalyse</h1>
+  <div class="container">
+    <h1>Финансовая консультация</h1>
+    <div id="form-container">
+      <label for="region">Выберите ваш регион:</label>
+      <select id="region" name="region">
+        <option value="germany">Германия</option>
+        <option value="russia">Россия</option>
+        <option value="usa">США</option>
+        <option value="korea">Корея</option>
+      </select>
 
-        <label for="country">Wählen Sie Ihr Land aus
-            :</label>
-        <select id="country">
-            <option value="Россия">RU</option>
-            <option value="США">US</option>
-            <option value="Германия">DE</option>
-            <option value="Украина">UK</option>
-        </select>
+      <label for="income">Ваш ежемесячный доход (в валюте региона):</label>
+      <input type="number" id="income" placeholder="Введите ваш доход">
 
-        <h2>Einkommen</h2>
-        <label>Grundeinkommen: <input type="number" id="income" placeholder="Betrag eingeben"></label>
+      <label for="expenses">Сумма ежемесячных расходов (в валюте региона):</label>
+      <input type="number" id="expenses" placeholder="Введите ваши расходы">
 
-        <h2>Kosten</h2>
-        <label>Gehäuse: <input type="number" id="housing" placeholder="Betrag eingeben"></label>
-        <label>Transport: <input type="number" id="transport" placeholder="Betrag eingeben"></label>
-        <label>Produkte: <input type="number" id="food" placeholder="Betrag eingeben"></label>
-        <label>Unterhaltung: <input type="number" id="entertainment" placeholder="Betrag eingeben"></label>
-        <label>Andere: <input type="number" id="other" placeholder="Betrag eingeben"></label>
+      <label for="expenses-details">На что вы тратите деньги? (например, жильё, еда, транспорт и т.д.)</label>
+      <textarea id="expenses-details" placeholder="Укажите, на что уходят ваши деньги"></textarea>
 
-        <button onclick="calculate()">Berechnen</button>
-
-        <h2>Ergebnisse</h2>
-        <p id="result"></p>
-        <p id="advice"></p>
+      <button id="submit" onclick="generateRecommendation()">Получить рекомендацию</button>
     </div>
 
-    <script src="script.js"></script>
+    <div id="recommendation-container" class="hidden">
+      <h2>Рекомендации по сокращению расходов:</h2>
+      <p id="recommendation"></p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
 </body>
 </html>
