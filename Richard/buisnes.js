@@ -1,3 +1,5 @@
+let balanceuser = document.querySelector(".bal")
+let recomindation = document.querySelector(".rec")
 function calculate() {
     let income =
     Number(document.getElementById("income").value);
@@ -5,9 +7,19 @@ function calculate() {
     Number(document.getElementById("totalExpenses").value);
 }
 
-let balance = income - totalExpenses;
 
-function getAdvice(balance) {
+
+
+
+RaschotButton.addEventListener('bal', function calculate() {
+    let income =
+    Number(document.getElementById("income").value);
+    let expenses =
+    Number(document.getElementById("totalExpenses").value);
+    let balance = income - totalExpenses;
+})
+
+RaschotButton.addEventListener('rec', function getAdvice(balance) {
     if(balance >= 500) {
         return "Your finances are in order cousider investment opportunities"
     } else if (balance >= 0) {
@@ -17,4 +29,4 @@ function getAdvice(balance) {
     } else {
         return "Your budget is in critical condition, if you don´t do something, you will soon not be adle, you will soon not be able to support yourself"
     }
-}
+})
