@@ -1,6 +1,11 @@
 body{
+<<<<<<< HEAD
     background: linear-gradient(to bottom right, #1f042c, #d4b1e6);
     
+=======
+    background: linear-gradient();
+    color: white;
+>>>>>>> 51fb5d46de86502077a36aae8a33b48afe45e5bd
 }
 
 .toptextbox{
@@ -10,6 +15,7 @@ body{
     width: 490px;
     height: 174px;
     position: relative;
+    text-transform: uppercase;
 }
 
 .bottomtextbox{
@@ -19,4 +25,5 @@ body{
     width: 490px;
     height: 174px;
     position:relative;
+    text-transform: uppercase;
 }
