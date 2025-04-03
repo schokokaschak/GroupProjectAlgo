@@ -25,4 +25,3 @@ SovetButton.addEventListener('click', function getAdvice(balance) {
         h2.innerHTML = `<h2>Your budget is in critical condition, if you don´t do something, you will soon not be adle, you will soon not be able to support yourself</h2>`
     }
 })
-22
