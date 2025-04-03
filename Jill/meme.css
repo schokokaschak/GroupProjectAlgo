@@ -1,29 +1,33 @@
 body{
-<<<<<<< HEAD
     background: linear-gradient(to bottom right, #1f042c, #d4b1e6);
-    
-=======
-    background: linear-gradient();
-    color: white;
->>>>>>> 51fb5d46de86502077a36aae8a33b48afe45e5bd
+}
+
+h2{
+    margin: auto;
+    width: 25%;
+    padding: 10px;
+    text-align: center;
+}
+
+.centerthis{
+    margin: auto;
+    width: 25%;
+    padding: 10px;
+    text-align: center;
 }
 
 .toptextbox{
     font-family: Impact;
-    left: 4px;
-    top: 4px;
     width: 490px;
-    height: 174px;
     position: relative;
     text-transform: uppercase;
+    color: white;
 }
 
 .bottomtextbox{
     font-family: Impact;
-    left: 4px;
-    top: 508px;
     width: 490px;
-    height: 174px;
     position:relative;
     text-transform: uppercase;
+    color: white;
 }
