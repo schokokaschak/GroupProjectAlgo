@@ -1,14 +1,14 @@
-    const imgURLInput = document.getElementById('imgURL');
-    const memeImage = document.querySelector('.pic img');
-    const submitBtn = document.querySelector('.img-upload + div button');
-  
-    submitBtn.addEventListener('click', function() {
-      const newURL = imgURLInput.value.trim();
-      if(newURL) {
-        memeImage.src = newURL;
-      }
-    });
-  
+const imgURLInput = document.getElementById('imgURL');
+const memeImage = document.querySelector('.pic img');
+const submitBtn = document.querySelector('.img-upload + div button');
+
+submitBtn.addEventListener('click', function() {
+  const newURL = imgURLInput.value.trim();
+  if(newURL) {
+    memeImage.src = newURL;
+  }
+});
+
 const topTextInput = document.getElementById('textTop');
 const bottomTextInput = document.getElementById('textBottom');
 
