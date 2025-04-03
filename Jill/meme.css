@@ -1,19 +1,6 @@
 body{
     background: linear-gradient(to bottom right, #1f042c, #d4b1e6);
-}
-
-h2{
-    margin: auto;
-    width: 25%;
-    padding: 10px;
-    text-align: center;
-}
-
-.centerthis{
-    margin: auto;
-    width: 25%;
-    padding: 10px;
-    text-align: center;
+    
 }
 
 .toptextbox{
