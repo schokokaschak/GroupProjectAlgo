@@ -1,7 +1,14 @@
+html {
+    height: 100%;
+
+}
+
 body {
     font-family: Arial, sans-serif;
     text-align: center;
-    background-color: #f4f4f4;
+    background: linear-gradient(to bottom right, #1f042c, #d4b1e6);
+    background-repeat: no-repeat;
+    
     margin: 50px;
 }
 

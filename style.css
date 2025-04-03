@@ -8,8 +8,9 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background: linear-gradient(to bottom right, #5e2a78, #d4b1e6);
-    
+    background: linear-gradient(to bottom right, #1f042c, #d4b1e6);
+    background-repeat: no-repeat;
+    background-size: cover;
       
   }
   
